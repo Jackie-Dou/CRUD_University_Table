@@ -1,0 +1,44 @@
+{
+  "allEditions" : [ {
+    "@class" : "main_entities.Lecture",
+    "type" : "Lecture",
+    "time" : "(1) 8.00-9.35",
+    "subject" : {
+      "name" : "s2",
+      "department" : ""
+    },
+    "subject_name" : "s2",
+    "tutor" : {
+      "name" : "t1",
+      "degree" : "",
+      "post" : ""
+    },
+    "tutor_name" : "t1",
+    "faculty" : "FRE",
+    "course" : "1",
+    "topic" : ""
+  }, {
+    "@class" : "main_entities.Laboratory",
+    "type" : "Laboratory",
+    "time" : "(5) 15.20-16.55",
+    "subject" : {
+      "name" : "s2",
+      "department" : ""
+    },
+    "subject_name" : "s1",
+    "tutor" : {
+      "name" : "t1",
+      "degree" : "",
+      "post" : ""
+    },
+    "tutor_name" : "t1",
+    "faculty" : "IEF",
+    "course" : "1",
+    "group" : {
+      "number" : "g1",
+      "faculty" : "",
+      "course" : ""
+    },
+    "group_number" : "g1"
+  } ]
+}

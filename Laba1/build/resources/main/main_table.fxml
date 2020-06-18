@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppController1">
+   <left>
+      <AnchorPane prefHeight="600.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btnAdd" layoutX="14.0" layoutY="257.0" mnemonicParsing="false" onAction="#onbtnAddClick" text="Add" />
+            <ComboBox fx:id="cmbbxTypeOfClass" layoutX="16.0" layoutY="34.0" onAction="#oncmbbxTypeOfClassChange" prefHeight="26.0" prefWidth="213.0" promptText="Type of class" />
+            <TextField fx:id="txtfldTopic" layoutX="15.0" layoutY="213.0" prefHeight="26.0" prefWidth="114.0" promptText="Topic" />
+            <ComboBox fx:id="cmbbxCourse" layoutX="143.0" layoutY="178.0" prefHeight="26.0" prefWidth="86.0" promptText="Course" />
+            <Button fx:id="btnEdit" layoutX="90.0" layoutY="257.0" mnemonicParsing="false" onAction="#onbtnEditClick" text="Edit" />
+            <TableView fx:id="tblResults" layoutX="241.0" layoutY="40.0" onMouseClicked="#onTableClicked" prefHeight="471.0" prefWidth="554.0">
+              <columns>
+                <TableColumn fx:id="tblclmnTime" prefWidth="112.0" text="Time" />
+                  <TableColumn fx:id="tblclmnSubject" prefWidth="145.60003662109375" text="Subject" />
+                  <TableColumn fx:id="tblclmnTutor" prefWidth="120.0" text="Tutor" />
+                  <TableColumn fx:id="tblclmnFaculty" prefWidth="111.20001220703125" text="Faculty" />
+                  <TableColumn fx:id="tblclmnCourse" prefWidth="64.79998779296875" text="Course" />
+              </columns>
+            </TableView>
+            <ComboBox fx:id="cmbbxTimeOfClass" layoutX="15.0" layoutY="108.0" prefHeight="26.0" prefWidth="214.0" promptText="Time" />
+            <Button fx:id="btnDelete" layoutX="178.0" layoutY="257.0" mnemonicParsing="false" onAction="#onbtnDeleteClick" text="Delete" />
+            <Label layoutX="268.0" layoutY="14.0" text="Click left to see full information, right to edit" />
+            <ComboBox fx:id="cmbbxTutor" layoutX="14.0" layoutY="143.0" prefHeight="26.0" prefWidth="215.0" promptText="Tutor" />
+            <ComboBox fx:id="cmbbxGroup" layoutX="143.0" layoutY="213.0" prefHeight="26.0" prefWidth="90.0" promptText="Group" />
+            <ComboBox fx:id="cmbbxNew" layoutX="17.0" layoutY="361.0" onAction="#oncmbbxNewChange" prefHeight="26.0" prefWidth="193.0" promptText="Add new or edit details of" />
+            <Button fx:id="btnSave" layoutX="178.0" layoutY="542.0" mnemonicParsing="false" onAction="#onbtnSaveClick" text="Save" />
+            <ComboBox fx:id="cmbbxSubject" layoutX="16.0" layoutY="69.0" prefHeight="26.0" prefWidth="212.0" promptText="Subject" />
+            <TextField fx:id="txtfld1" layoutX="16.0" layoutY="435.0" prefHeight="26.0" prefWidth="209.0" />
+            <TextField fx:id="txtfld2" layoutX="16.0" layoutY="473.0" prefHeight="26.0" prefWidth="208.0" />
+            <TextField fx:id="txtfld3" layoutX="16.0" layoutY="505.0" prefHeight="26.0" prefWidth="206.0" />
+            <ComboBox fx:id="cmbbxFaculty" layoutX="15.0" layoutY="179.0" prefHeight="26.0" prefWidth="113.0" promptText="Faculty" />
+            <ComboBox fx:id="cmbbxChoose" layoutX="16.0" layoutY="400.0" onAction="#oncmbbxChooseChange" prefHeight="26.0" prefWidth="125.0" />
+            <Label fx:id="lblNew" layoutX="19.0" layoutY="308.0" prefHeight="54.0" prefWidth="216.0">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Button fx:id="btnDeleteDetails" layoutX="15.0" layoutY="542.0" mnemonicParsing="false" onAction="#onbtnDeleteDetailsClick" text="Delete" />
+            <Button fx:id="btnSaveFile" layoutX="476.0" layoutY="530.0" mnemonicParsing="false" onAction="#onbtnSaveFileClick" prefHeight="35.0" prefWidth="106.0" text="Save in file" />
+            <Button fx:id="btnUploadFile" layoutX="599.0" layoutY="530.0" mnemonicParsing="false" onAction="#onbtnUploadFileClick" prefHeight="34.0" prefWidth="107.0" text="Upload from file" />
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>

@@ -1,0 +1,2 @@
+Lecture;(1) 8.00-9.35;subj;department1;TheTutor;AnotherDeg;AnotherPost;FITY;2;erererererere;
+Laboratory;(6) 17.05-18.40;subj;department1;tutor1;Degree;PostWhatPost;FKSIS;4;group1;some_faculty;course?;
