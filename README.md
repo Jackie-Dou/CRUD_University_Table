@@ -1,2 +1,5 @@
-# OOP_final
-Labs 1-3 for OOP (Crud, Serialization, ZIP-archieve plugin)
+# 
+OOP (Crud, Serialization, ZIP-archieve plugin)
+Возможность добавлять-удалять-редактировать как основные сущности, так и их элементы.
+Сериализация в бинарном и JSON форматах.
+Уникальная возможность архивировать данные в ZIP.
